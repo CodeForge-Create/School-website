@@ -7,13 +7,13 @@ html {
 }
 
 body {
-    background-color: #FFFCF2;
-    color: #292929;
+    background-color: #F2F2F2;
+    color: #111111;
     font-family: Tahoma, Arial, sans-serif;
 }
 
 .navbar{
-    background-color: #292929;
+    background-color: #111111;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -24,25 +24,20 @@ body {
     border-radius: 10px;
 }
 
-.navbar p{
-    margin: 0;
-    color: #FFFCF2;
-}
-
 a {
-    color: #FFFCF2;
+    color: #FFFFFF;
 }
 
 a:visited {
-    color: #FFFCF2;
+    color: #FFFFFF;
 }
 
 a:hover {
-    color: #F5C928;
+    color: #8EC5F0;
 }
 
 a:active {
-    color: #D9AD12;
+    color: #4F9BD8;
 }
 
 #subjects-and-teachers {
@@ -58,11 +53,12 @@ a:active {
 }
 
 .subject-card {
-    background-color: white;
-    color: #292929;
-    border: 2px solid #F5C928;
+    background-color: #FFFFFF;
+    color: #111111;
+    border: 2px solid #2F6FA3;
     border-radius: 10px;
-    width: 260px;
+    width: 100%;
+    max-width: 260px;
     padding: 20px;
 }
 
@@ -79,21 +75,22 @@ a:active {
 }
 
 .home-intro {
+    width: 100%;
     max-width: 900px;
     margin: 60px auto;
-    padding: 40px;
+    padding: 20px;
     border-radius: 10px;
-    background-color: #292929;
-    color: #FFFCF2;
+    background-color: #1E3A5F;
+    color: #FFFFFF;
     text-align: center;
 }
 
 .home-intro h2 {
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .welcome-text {
-    color: #F5C928;
+    color: #8EC5F0;
     font-weight: bold;
 }
 
@@ -106,22 +103,23 @@ a:active {
     margin: 5px;
     padding: 12px 18px;
     border-radius: 5px;
-    background-color: #FFFCF2;
-    color: #292929;
+    background-color: #FFFFFF;
+    color: #111111;
     font-weight: bold;
     text-decoration: none;
 }
 
 .home-action:visited {
-    color: #292929;
+    color: #111111;
 }
 
 .home-action:hover {
-    background-color: #D9AD12;
-    color: #292929;
+    background-color: #DCEBFA;
+    color: #111111;
 }
 
 .quick-links {
+    width: 100%;
     max-width: 900px;
     margin: 60px auto;
 }
@@ -131,13 +129,13 @@ a:active {
     margin: 15px 0;
     padding: 20px;
     border-radius: 10px;
-    background-color: #F5C928;
-    color: #292929;
+    background-color: #DCEBFA;
+    color: #111111;
     text-decoration: none;
 }
 
 .quick-link:visited {
-    color: #292929;
+    color: #111111;
 }
 
 .quick-link h3 {
@@ -149,7 +147,7 @@ a:active {
 }
 
 .quick-link:hover {
-    background-color: #D9AD12;
+    background-color: #8EC5F0;
 }
 
 .back-to-top {
@@ -158,8 +156,8 @@ a:active {
     right: 20px;
     width: 45px;
     height: 45px;
-    background-color: #292929;
-    color: #FFFCF2;
+    background-color: #111111;
+    color: #FFFFFF;
     border-radius: 50%;
     text-decoration: none;
     display: flex;
@@ -176,17 +174,23 @@ a:active {
 }
 
 .event-card {
-    width: 300px;
-    height: 400px;
-    background-color: #292929;
-    color: #FFFCF2;
-    margin: 30px;
+    width: 100%;
+    max-width: 300px;
+    background-color: #1E3A5F;
+    color: #FFFFFF;
+    margin: 10px 0;
     text-align: center;
     border-radius: 20px;
 }
 
 .event-card img {
-    width: 300px;
+    width: 100%;
+    height: auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+#calendar table {
+    width: 100%;
+    table-layout: fixed;
 }
